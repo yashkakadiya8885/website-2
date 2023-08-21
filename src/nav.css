@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(28, 28, 28);
+    padding: 20px;
+  }
+  
+  #nav p {
+    color: #ffff;
+    font-size: 20px;
+  }
+  .link {
+    text-decoration: none;
+  }
+  #box{
+    display: flex;
+  }
+  
+  #sidebar{
+    border: 1px solid gray;
+    height: 100vh;
+    width: 20%;
+  }
