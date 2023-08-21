@@ -17,12 +17,3 @@
   .link {
     text-decoration: none;
   }
-  #box{
-    display: flex;
-  }
-  
-  #sidebar{
-    border: 1px solid gray;
-    height: 100vh;
-    width: 20%;
-  }
