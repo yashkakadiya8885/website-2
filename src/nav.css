@@ -1,19 +1,32 @@
 * {
     margin: 0px;
     padding: 0px;
-  }
+}
   
   #nav {
     display: flex;
     justify-content: space-between;
     background-color: rgb(28, 28, 28);
     padding: 20px;
-  }
+}
   
   #nav p {
     color: #ffff;
     font-size: 20px;
-  }
+}
   .link {
     text-decoration: none;
-  }
+}
+#sidebar {
+  width: 20%;
+  border: 3px solid #cccc;
+  height: 100vh;
+}
+#error img{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  
+}

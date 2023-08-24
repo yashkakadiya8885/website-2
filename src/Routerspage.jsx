@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from "react-router-dom";
-import Home from './Home';
-import About from './About';
+import Home from "./Home";
+import About from "./About";
 import Contactus from './Contactus';
 import Product from './Product';
 import Signup from './Signup';
@@ -12,11 +12,11 @@ const Routerspage = () => {
     <>
         <Routes>
             <Route path='/' element={<Home/>}/>
-            <Route path='/' element={<About/>}/>
-            <Route path='/' element={<Contactus/>}/>
-            <Route path='/' element={<Product/>}></Route>
-            <Route path='/' element={<Signup/>}/>
-            <Route path='/' element={<Login/>}/>
+            <Route path='/About' element={<About/>}/>
+            <Route path='/Contactus' element={<Contactus/>}/>
+            <Route path='/Product' element={<Product/>}/>
+            <Route path='/Signup' element={<Signup/>}/>
+            <Route path='/Login' element={<Login/>}/>
             <Route path='*' element={<Error/>}/>
         </Routes>
     </>
